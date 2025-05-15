@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "dislexikmodz:sapphite_upgrade_template"
+  },
+  "base": {
+    "item": "minecraft:diamond_chestplate"
+  },
+  "addition": {
+    "item": "dislexikmodz:sapphite"
+  },
+  "result": {
+    "item": "dislexikmodz:sapphite_chestplate"
+  }
+}

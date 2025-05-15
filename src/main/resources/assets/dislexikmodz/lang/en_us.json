@@ -3,6 +3,19 @@
 
   "item.dislexikmodz.sapphire": "Sapphire",
   "item.dislexikmodz.sapphite": "Sapphite",
+  "item.dislexikmodz.sapphite_upgrade_template": "Sapphite Upgrade Template",
 
-  "item.dislexikmodz.sapphire_ore": "Sapphire Ore"
+
+  "item.dislexikmodz.sapphire_ore": "Sapphire Ore",
+
+
+
+
+
+  "item.dislexikmodz.sapphite_upgrade_template": "Sapphite Upgrade Template",
+  "upgrade.dislexikmodz.sapphite_upgrade.title": "Upgrade Gear",
+  "upgrade.dislexikmodz.sapphite_upgrade.applies_to": "Diamond Equipment",
+  "upgrade.dislexikmodz.sapphite_upgrade.ingredients": "Sapphite",
+  "upgrade.dislexikmodz.sapphite_upgrade.base_slot_description": "Place Diamond Gear Here",
+  "upgrade.dislexikmodz.sapphite_upgrade.additions_slot_description": "Place Sapphite Here"
 }

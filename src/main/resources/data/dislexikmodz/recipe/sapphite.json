@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#S#",
+    "SBS",
+    "#S#"
+  ],
+  "key": {
+    "#": "minecraft:quartz",
+    "S": "dislexikmodz:sapphire",
+    "B": "minecraft:blaze_powder"
+  },
+  "result": {
+    "id": "dislexikmodz:sapphite",
+    "count": 1
+  }
+}
