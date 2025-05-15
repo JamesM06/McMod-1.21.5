@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "dislexikmodz",
+	"version": "${version}",
+	"name": "DislexikModz",
+	"description": "Test Mod WIP!!",
+	"authors": [
+		"DislexikAce!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/dislexikmodz/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.james.dislexikmodz.DislexikModz"
+		],
+		"client": [
+			"net.james.dislexikmodz.DislexikModzClient"
+		],
+		"fabric-datagen": [
+			"net.james.dislexikmodz.DislexikModzDataGenerator"
+		]
+	},
+	"mixins": [
+		"dislexikmodz.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
