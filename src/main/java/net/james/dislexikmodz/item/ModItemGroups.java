@@ -19,8 +19,11 @@ public class ModItemGroups {
 
                         entries.add(ModItems.SAPPHIRE);
                         entries.add(ModItems.SAPPHITE);
+                        entries.add(ModItems.DEEPSLATE_SAPPHITE_TABLET);
+                        entries.add(ModItems.SAPPHITE_POWDER);
+
+
                         entries.add(ModBlocks.SAPPHIRE_ORE);
-                        entries.add(ModItems.SAPPHITE_UPGRADE_TEMPLATE);
 
                     }).build());
 

@@ -1,6 +1,8 @@
 package net.james.dislexikmodz.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fabricmc.fabric.api.registry.CompostingChanceRegistry;
+import net.fabricmc.fabric.api.registry.FuelRegistryEvents;
 import net.james.dislexikmodz.DislexikModz;
 import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
@@ -23,9 +25,9 @@ public class ModItems {
     //public static final Item SAPPHIRE = registerItem("sapphire", new Item(new Item.Settings()));
     public static final Item SAPPHIRE = registerItem("sapphire", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(DislexikModz.MOD_ID,"sapphire")))));
     public static final Item SAPPHITE = registerItem("sapphite", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(DislexikModz.MOD_ID,"sapphite")))));
-    //public static final Item SAPPHITE_UPGRADE_TEMPLATE = registerItem("sapphite_upgrade_template",SmithingTemplateItem.of(Identifier.of(DislexikModz.MOD_ID, "sapphite_upgrade_template"), FeatureFlags.VANILLA));
-    public static final Item SAPPHITE_UPGRADE_TEMPLATE = Registry.register("SAPPHITE_UPGRADE_TEMPLATE", SmithingTemplateItem.of(("tutorial", "tutorial_armor_trim")));
+    public static final Item SAPPHITE_POWDER = registerItem("sapphite_powder", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(DislexikModz.MOD_ID,"sapphite_powder")))));
 
+    public static final Item DEEPSLATE_SAPPHITE_TABLET = registerItem("deepslate_sapphite_tablet", new Item(new Item.Settings().rarity(Rarity.RARE).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(DislexikModz.MOD_ID,"deepslate_sapphite_tablet")))));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(DislexikModz.MOD_ID, name), item);
@@ -39,7 +41,9 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(SAPPHIRE);
             entries.add(SAPPHITE);
-            entries.add(SAPPHITE_UPGRADE_TEMPLATE);
+            entries.add(DEEPSLATE_SAPPHITE_TABLET);
+
+            entries.add(SAPPHITE_POWDER);
         });
     }
 

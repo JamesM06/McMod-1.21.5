@@ -1,21 +1,13 @@
 {
   "itemgroup.dislexikmodz.dislexik_modz": "Dislexik Modz",
-
   "item.dislexikmodz.sapphire": "Sapphire",
   "item.dislexikmodz.sapphite": "Sapphite",
-  "item.dislexikmodz.sapphite_upgrade_template": "Sapphite Upgrade Template",
-
-
+  "item.dislexikmodz.sapphite_powder": "Sapphite Powder",
   "item.dislexikmodz.sapphire_ore": "Sapphire Ore",
 
+  "item.dislexikmodz.deepslate_sapphite_tablet": "Deepslate Sapphite Tablet"
 
 
 
 
-  "item.dislexikmodz.sapphite_upgrade_template": "Sapphite Upgrade Template",
-  "upgrade.dislexikmodz.sapphite_upgrade.title": "Upgrade Gear",
-  "upgrade.dislexikmodz.sapphite_upgrade.applies_to": "Diamond Equipment",
-  "upgrade.dislexikmodz.sapphite_upgrade.ingredients": "Sapphite",
-  "upgrade.dislexikmodz.sapphite_upgrade.base_slot_description": "Place Diamond Gear Here",
-  "upgrade.dislexikmodz.sapphite_upgrade.additions_slot_description": "Place Sapphite Here"
 }

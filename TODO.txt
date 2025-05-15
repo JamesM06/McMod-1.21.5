@@ -1,0 +1,7 @@
+> Make Set of armor
+> Make Tools
+> Add ore to world Gen
+> Add BLock Verients
+> Make A ingot version of the sapphite (sapphite Ingot) -- can be used in the making of armor / tools
+> add so other cool stuff like sapphire carrots / apples,
+> add other shit

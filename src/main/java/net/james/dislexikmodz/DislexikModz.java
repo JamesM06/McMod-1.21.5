@@ -2,6 +2,7 @@ package net.james.dislexikmodz;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistryEvents;
 import net.james.dislexikmodz.block.ModBlocks;
 import net.james.dislexikmodz.item.ModItemGroups;
 import net.james.dislexikmodz.item.ModItems;
@@ -18,5 +19,9 @@ public class DislexikModz implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModItemGroups.registerItemGroups();
+
+		FuelRegistryEvents.BUILD.register((builder, context) -> {
+			builder.add(ModItems.SAPPHITE_POWDER, 240 * 20);
+		});
 	}
 }

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "STS",
+    "SDS",
+    "SSS"
+  ],
+  "key": {
+    "T": "dislexikmodz:deepslate_sapphite_tablet",
+    "S": "dislexikmodz:sapphire",
+    "D": "minecraft:deepslate"
+  },
+  "result": {
+    "id": "dislexikmodz:deepslate_sapphite_tablet",
+    "count": 2
+  }
+}
